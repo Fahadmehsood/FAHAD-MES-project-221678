@@ -82,7 +82,6 @@ void stopRobot() {
   digitalWrite(rightMotorPin1, LOW);
   digitalWrite(rightMotorPin2, LOW);
 }
-
 void turnAround() {
   // Stop and turn around
   digitalWrite(leftMotorPin1, LOW);
